@@ -1,0 +1,90 @@
+
+*{
+    margin: auto;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.logo1{
+    margin-left: 20px;
+    height: 15%;
+    width: 15%;
+}
+
+nav{
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+ul{
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(10, 10, 81);
+    font-size: 20px;
+    
+    
+
+}
+/* making the appear side by side */
+.container{
+    align-items: center;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.container img{
+    width: 50%;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+h1{
+    padding:  20px, 20px;
+    color: rgb(27, 27, 120);
+    font-weight: bold;
+    margin: 20px, 20px, 20px, 20px;
+    
+}
+span{
+    color: coral;
+}
+ .about1{
+    justify-content: space-around;
+    font-size: 20px;
+    display: flex;
+    line-height: 30px;
+    align-content: center;
+
+}
+.container2{
+    display: flex;
+    gap: 20px;
+}
+.about2{
+    justify-content: space-around;
+    font-size: 20px;
+    line-height: 30px;
+    align-content: center;
+}
+.container2 img{
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    border-radius: 20%;
+    
+}
